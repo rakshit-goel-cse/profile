@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 18
 
+      - name: Change folder
+        run: cd profile
+        
       - name: Install dependencies
         run: npm install
 
