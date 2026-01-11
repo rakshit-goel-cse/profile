@@ -1,6 +1,6 @@
 import { useState } from 'preact/hooks'
 import './app.css'
-import MenuBar from './components/menubar'
+import MenuBar from './components/MenuBar'
 import MainPage from './components/MainPage'
 
 export function App() {
