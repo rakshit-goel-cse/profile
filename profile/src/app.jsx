@@ -10,7 +10,7 @@ export function App() {
   return (
     <>
       <MenuBar setPage={setPage}/>
-      <MainPage page={page}/>
+      <MainPage page={page} setPage={setPage}/>
     </>
   )
 }
